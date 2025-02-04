@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio WOM</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.cdnfonts.com/css/avenir" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Avenir', sans-serif;
+        }
+        .bg-container {
+            background-image: url('img/bg.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .wom-color {
+            color: rgba(161,0,78,1);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+<div class="bg-container min-h-[300px] md:min-h-[500px] flex-grow flex items-center justify-center">
+    <div class="text-center text-white">
+        <h1 class="text-6xl md:text-7xl mb-2 text-white">Estudio WOM</h1>
+        <p class="text-xl md:text-2xl text-white">Word Of Mouth</p>
+    </div>
+</div>
+
+<footer class="mb-[60px] mt-10 text-center">
+    <div class="space-y-4">
+        <div class="flex items-center justify-center space-x-2">
+            <i data-lucide="instagram" class="w-6 h-6 wom-color"></i>
+            <a href="https://www.instagram.com/estudiowom_" class="wom-color hover:opacity-80">@estudiowom_</a>
+        </div>
+        <div>
+            <a href="mailto:info@estudiowom.com" class="wom-color hover:opacity-80">info@estudiowom.com</a>
+        </div>
+        <div>
+            <a href="https://wa.me/%2B5491123471272" target="_blank" class="wom-color">+5491123471272</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
