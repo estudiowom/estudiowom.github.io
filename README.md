@@ -1,2 +1,1 @@
-# Estudio WOM!
-
+# Estudio WOM
